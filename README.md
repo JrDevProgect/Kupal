@@ -22,6 +22,22 @@ We strongly recommend being responsible when using this API to avoid issues like
 
 ---
 
+## New Features
+
+### 1. **BypassAutomationBehavior**
+
+This feature is designed to bypass certain behavior detection mechanisms from Facebook, which may otherwise flag your actions as automated. By enabling this, your bot's activity will appear more like human interaction, helping reduce the risk of account limitations.
+
+- **Configuration**: Can be toggled on or off in the `NextGen-FCA.json` configuration file.
+  
+### 2. **AutoRefreshFbDtsg**
+
+This feature automatically refreshes the **fb_dtsg** token, which is used for secure communication with Facebook. Since **fb_dtsg** tokens expire periodically, this feature ensures your session stays active by refreshing the token automatically without requiring a manual login.
+
+- **Configuration**: Can be toggled on or off in the `NextGen-FCA.json` configuration file.
+
+---
+
 ## How to Get AppState
 
 1. **Kiwi Browser & c3c-ufc-utility Extension**
@@ -76,7 +92,23 @@ login({ appState: appState }, (err, api) => {
 });
 ```
 
-### Main Functionality
+### Configuration (`NextGen-FCA.json`)
+
+The following options can be configured in your `NextGen-FCA.json` file:
+
+```json
+{
+  "BypassAutomationBehavior": true,  // Set to false to disable this feature
+  "AutoRefreshFbDtsg": true         // Set to false to disable this feature
+}
+```
+
+- **BypassAutomationBehavior**: Enables or disables the feature to bypass Facebook's automated behavior detection.
+- **AutoRefreshFbDtsg**: Enables or disables automatic refreshing of the **fb_dtsg** token to keep your session active.
+
+---
+
+## Main Functionality
 
 - **Sending Messages:**
     - Regular Text Messages
