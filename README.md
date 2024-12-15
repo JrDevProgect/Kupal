@@ -124,12 +124,6 @@ The following options can be configured in your `NextGen-FCA.json` file:
 
 ---
 
-## Documentation
-
-You can find the full documentation [here](DOCS.md).
-
----
-
 ## FAQ
 
 1. **Why doesn’t `api.getAppState()` work anymore?**
