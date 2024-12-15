@@ -174,7 +174,7 @@ If you have a problem with this FCA, you can contact us by clicking here:
 
 Join our group **ChatBot Community**:
 
-- [Join our group](https://www.facebook.com/groups/coders.dev)
+- [ChatBot Community](https://www.facebook.com/groups/coders.dev)
 
 ---
 
