@@ -1,3 +1,4 @@
+
 ---
 
 # newgen-fca - Unofficial Facebook Chat API
@@ -161,6 +162,19 @@ You can find the full documentation [here](DOCS.md).
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact & Community
+
+If you have a problem with this FCA, you can contact us by clicking here:
+
+- [JR Busaco](https://www.facebook.com/jr.busaco.271915)
+- [Haji Atomyc](https://www.facebook.com/haji.atomyc2727)
+
+Join our group **ChatBot Community**:
+
+- [Join our group](https://www.facebook.com/groups/coders.dev)
 
 ---
 
